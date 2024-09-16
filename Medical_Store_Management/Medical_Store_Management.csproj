@@ -71,45 +71,346 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="Forms\AddItem.aspx" />
-    <Content Include="Forms\AddOrder.aspx" />
-    <Content Include="Forms\AddStaff.aspx" />
+    <Content Include="assets\css\animate.css\css\animate.css" />
+    <Content Include="assets\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\css\chartist\chartist.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\ionicons.css" />
+    <Content Include="assets\css\jquery.mCustomScrollbar.css" />
+    <Content Include="assets\css\morris.js\css\morris.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\icon\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\icon\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\icon\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.css" />
+    <Content Include="assets\icon\icofont\css\icofont.css" />
+    <Content Include="assets\icon\icofont\fonts\icofont.svg" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="assets\icon\themify-icons\themify-icons.css" />
+    <Content Include="assets\Images\auth\logo-dark.png" />
+    <Content Include="assets\Images\auth\Logo-small-bottom.png" />
+    <Content Include="assets\Images\auth\logo.png" />
+    <Content Include="assets\Images\avatar-1.jpg" />
+    <Content Include="assets\Images\avatar-2.jpg" />
+    <Content Include="assets\Images\avatar-3.jpg" />
+    <Content Include="assets\Images\avatar-4.jpg" />
+    <Content Include="assets\Images\avatar-5.jpg" />
+    <Content Include="assets\Images\avatar-blank.jpg" />
+    <Content Include="assets\Images\blog\blog-130.png" />
+    <Content Include="assets\Images\blog\blog-r-1.jpg" />
+    <Content Include="assets\Images\blog\blog-r-2.jpg" />
+    <Content Include="assets\Images\blog\blog-r-3.jpg" />
+    <Content Include="assets\Images\blog\blog-single-1.jpg" />
+    <Content Include="assets\Images\blog\blog-single.jpg" />
+    <Content Include="assets\Images\blog\blog-small-bg-1.png" />
+    <Content Include="assets\Images\blog\st_gallery1.jpg" />
+    <Content Include="assets\Images\blog\st_gallery2.jpg" />
+    <Content Include="assets\Images\blog\st_gallery3.jpg" />
+    <Content Include="assets\Images\breadcrumb-bg.jpg" />
+    <Content Include="assets\Images\browser\chrome.png" />
+    <Content Include="assets\Images\browser\firefox.png" />
+    <Content Include="assets\Images\browser\ie.png" />
+    <Content Include="assets\Images\browser\opera.png" />
+    <Content Include="assets\Images\browser\safari.png" />
+    <Content Include="assets\Images\Caduceus.jpg" />
+    <Content Include="assets\Images\Categories.png" />
+    <Content Include="assets\Images\details_close.png" />
+    <Content Include="assets\Images\details_open.png" />
+    <Content Include="assets\Images\faq_man.png" />
+    <Content Include="assets\Images\favicon.ico" />
+    <Content Include="assets\Images\logo-blue.png" />
+    <Content Include="assets\Images\logo-compact.png" />
+    <Content Include="assets\Images\Logo.jpg" />
+    <Content Include="assets\Images\logo.png" />
+    <Content Include="assets\Images\Logout.png" />
+    <Content Include="assets\Images\mCSB_buttons.png" />
+    <Content Include="assets\Images\mega-menu\01.jpg" />
+    <Content Include="assets\Images\mega-menu\02.jpg" />
+    <Content Include="assets\Images\mega-menu\03.jpg" />
+    <Content Include="assets\Images\select-arrow.png" />
+    <Content Include="assets\Images\Seller.png" />
+    <Content Include="assets\Images\tooltip\Euclid.png" />
+    <Content Include="assets\Images\tooltip\shape1.svg" />
+    <Content Include="assets\Images\tooltip\tooltip1.svg" />
+    <Content Include="assets\Images\user-bg.jpg" />
+    <Content Include="assets\Images\widget\AUSTRALIA.jpg" />
+    <Content Include="assets\Images\widget\BRAZIL.jpg" />
+    <Content Include="assets\Images\widget\DIGITALPEN.jpg" />
+    <Content Include="assets\Images\widget\GERMANY.jpg" />
+    <Content Include="assets\Images\widget\IPAD.jpg" />
+    <Content Include="assets\Images\widget\PHONE1.jpg" />
+    <Content Include="assets\Images\widget\PHONE2.jpg" />
+    <Content Include="assets\Images\widget\PHONE3.jpg" />
+    <Content Include="assets\Images\widget\PHONE4.jpg" />
+    <Content Include="assets\Images\widget\prod1.jpg" />
+    <Content Include="assets\Images\widget\prod2.jpg" />
+    <Content Include="assets\Images\widget\prod3.jpg" />
+    <Content Include="assets\Images\widget\prod4.jpg" />
+    <Content Include="assets\Images\widget\TABLET.jpg" />
+    <Content Include="assets\Images\widget\UK.jpg" />
+    <Content Include="assets\Images\widget\USA.jpg" />
+    <Content Include="assets\Images\widget\wather2bottom.png" />
+    <Content Include="assets\Images\widget\wather2m.png" />
+    <Content Include="assets\Images\widget\wather2star1.png" />
+    <Content Include="assets\Images\widget\wather2star2.png" />
+    <Content Include="assets\Images\widget\watherbottom.png" />
+    <Content Include="assets\Images\widget\wathernature.png" />
+    <Content Include="assets\Images\widget\watherstar1.png" />
+    <Content Include="assets\Images\widget\watherstar2.png" />
+    <Content Include="assets\js\bootstrap-growl.min.js" />
+    <Content Include="assets\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\js\chart.js\Chart.js" />
+    <Content Include="assets\js\common-pages.js" />
+    <Content Include="assets\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="assets\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="assets\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="assets\js\jquery.mousewheel.min.js" />
+    <Content Include="assets\js\jquery\jquery.min.js" />
+    <Content Include="assets\js\modernizr\css-scrollbars.js" />
+    <Content Include="assets\js\modernizr\modernizr.js" />
+    <Content Include="assets\js\morris-custom-chart.js" />
+    <Content Include="assets\js\morris.js\morris.js" />
+    <Content Include="assets\js\pcoded.min.js" />
+    <Content Include="assets\js\popper.js\popper.min.js" />
+    <Content Include="assets\js\raphael\raphael.min.js" />
+    <Content Include="assets\js\script.js" />
+    <Content Include="assets\js\script.min.js" />
+    <Content Include="assets\js\SmoothScroll.js" />
+    <Content Include="assets\js\vertical-layout.min.js" />
+    <Content Include="assets\pages\accordion\accordion.js" />
+    <Content Include="assets\pages\accordion\accordion.min.js" />
+    <Content Include="assets\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="assets\pages\dashboard\amchart\css\export.css" />
+    <Content Include="assets\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="assets\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="assets\pages\dashboard\amchart\js\light.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="assets\pages\dashboard\custom-dashboard.js" />
+    <Content Include="assets\pages\google-maps\gmaps.js" />
+    <Content Include="assets\pages\google-maps\google-maps.js" />
+    <Content Include="assets\pages\icon-modal.js" />
+    <Content Include="assets\pages\notification\notification.css" />
+    <Content Include="assets\pages\notification\notification.js" />
+    <Content Include="assets\pages\todo\todo.js" />
+    <Content Include="assets\pages\waves\css\waves.min.css" />
+    <Content Include="assets\pages\waves\js\waves.min.js" />
+    <Content Include="assets\pages\widget\amchart\amcharts.js" />
+    <Content Include="assets\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="assets\pages\widget\amchart\export.min.js" />
+    <Content Include="assets\pages\widget\amchart\gauge.js" />
+    <Content Include="assets\pages\widget\amchart\gauge.min.js" />
+    <Content Include="assets\pages\widget\amchart\light.js" />
+    <Content Include="assets\pages\widget\amchart\light.min.js" />
+    <Content Include="assets\pages\widget\amchart\pie.js" />
+    <Content Include="assets\pages\widget\amchart\pie.min.js" />
+    <Content Include="assets\pages\widget\amchart\serial.js" />
+    <Content Include="assets\pages\widget\amchart\serial.min.js" />
+    <Content Include="assets\pages\widget\excanvas.js" />
+    <Content Include="Views\AddItem.aspx" />
+    <Content Include="Views\AddOrder.aspx" />
+    <Content Include="Views\AddStaff.aspx" />
+    <Content Include="Views\Admin\BillHistory.aspx" />
+    <Content Include="Views\Admin\categories.aspx" />
+    <Content Include="Views\Admin\createPharmacist.aspx" />
+    <Content Include="Views\Admin\GenerateBill.aspx" />
+    <Content Include="Views\Admin\HomeAdmin.aspx" />
+    <Content Include="Views\Admin\medicines.aspx" />
+    <Content Include="Views\Admin\sendMessage.aspx" />
+    <Content Include="Views\Admin\ToOrder.aspx" />
+    <Content Include="Views\index.aspx" />
+    <Content Include="Views\Pharmacist\GenerateBill.aspx" />
+    <Content Include="Views\Pharmacist\medicines.aspx" />
+    <Content Include="Views\Pharmacist\myProfile.aspx" />
+    <Content Include="Views\Pharmacist\ToOrder.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Forms\AddCompany.aspx" />
+    <Content Include="Views\AddCompany.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\AddItem.aspx.cs">
+    <Compile Include="Views\AddItem.aspx.cs">
       <DependentUpon>AddItem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\AddItem.aspx.designer.cs">
+    <Compile Include="Views\AddItem.aspx.designer.cs">
       <DependentUpon>AddItem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddOrder.aspx.cs">
+    <Compile Include="Views\AddOrder.aspx.cs">
       <DependentUpon>AddOrder.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\AddOrder.aspx.designer.cs">
+    <Compile Include="Views\AddOrder.aspx.designer.cs">
       <DependentUpon>AddOrder.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddStaff.aspx.cs">
+    <Compile Include="Views\AddStaff.aspx.cs">
       <DependentUpon>AddStaff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\AddStaff.aspx.designer.cs">
+    <Compile Include="Views\AddStaff.aspx.designer.cs">
       <DependentUpon>AddStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\adminMaster.Master.cs">
+      <DependentUpon>adminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\adminMaster.Master.designer.cs">
+      <DependentUpon>adminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\BillHistory.aspx.cs">
+      <DependentUpon>BillHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\BillHistory.aspx.designer.cs">
+      <DependentUpon>BillHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\categories.aspx.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\categories.aspx.designer.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\createPharmacist.aspx.cs">
+      <DependentUpon>createPharmacist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\createPharmacist.aspx.designer.cs">
+      <DependentUpon>createPharmacist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\GenerateBill.aspx.cs">
+      <DependentUpon>GenerateBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\GenerateBill.aspx.designer.cs">
+      <DependentUpon>GenerateBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\HomeAdmin.aspx.cs">
+      <DependentUpon>HomeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\HomeAdmin.aspx.designer.cs">
+      <DependentUpon>HomeAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\medicines.aspx.cs">
+      <DependentUpon>medicines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\medicines.aspx.designer.cs">
+      <DependentUpon>medicines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\sendMessage.aspx.cs">
+      <DependentUpon>sendMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\sendMessage.aspx.designer.cs">
+      <DependentUpon>sendMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\ToOrder.aspx.cs">
+      <DependentUpon>ToOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\ToOrder.aspx.designer.cs">
+      <DependentUpon>ToOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\AddCompany.aspx.cs">
+    <Compile Include="Views\AddCompany.aspx.cs">
       <DependentUpon>AddCompany.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Forms\AddCompany.aspx.designer.cs">
+    <Compile Include="Views\AddCompany.aspx.designer.cs">
       <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmacist\GenerateBill.aspx.cs">
+      <DependentUpon>GenerateBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmacist\GenerateBill.aspx.designer.cs">
+      <DependentUpon>GenerateBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmacist\medicines.aspx.cs">
+      <DependentUpon>medicines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmacist\medicines.aspx.designer.cs">
+      <DependentUpon>medicines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmacist\myProfile.aspx.cs">
+      <DependentUpon>myProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmacist\myProfile.aspx.designer.cs">
+      <DependentUpon>myProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmacist\pharmacistMaster.Master.cs">
+      <DependentUpon>pharmacistMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmacist\pharmacistMaster.Master.designer.cs">
+      <DependentUpon>pharmacistMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pharmacist\ToOrder.aspx.cs">
+      <DependentUpon>ToOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Pharmacist\ToOrder.aspx.designer.cs">
+      <DependentUpon>ToOrder.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\icon\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\icon\font-awesome\less\animated.less" />
+    <Content Include="assets\icon\font-awesome\less\bordered-pulled.less" />
+    <Content Include="assets\icon\font-awesome\less\core.less" />
+    <Content Include="assets\icon\font-awesome\less\fixed-width.less" />
+    <Content Include="assets\icon\font-awesome\less\font-awesome.less" />
+    <Content Include="assets\icon\font-awesome\less\icons.less" />
+    <Content Include="assets\icon\font-awesome\less\larger.less" />
+    <Content Include="assets\icon\font-awesome\less\list.less" />
+    <Content Include="assets\icon\font-awesome\less\mixins.less" />
+    <Content Include="assets\icon\font-awesome\less\path.less" />
+    <Content Include="assets\icon\font-awesome\less\rotated-flipped.less" />
+    <Content Include="assets\icon\font-awesome\less\screen-reader.less" />
+    <Content Include="assets\icon\font-awesome\less\stacked.less" />
+    <Content Include="assets\icon\font-awesome\less\variables.less" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.css.map" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_animated.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_core.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_icons.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_larger.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_list.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_mixins.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_path.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_stacked.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_variables.scss" />
+    <Content Include="assets\icon\icofont\fonts\icofont.eot" />
+    <Content Include="assets\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="assets\icon\icofont\fonts\icofont.woff" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="assets\Images\auth\Thumbs.db" />
+    <Content Include="assets\Images\Thumbs.db" />
     <None Include="packages.config" />
+    <Content Include="Views\Admin\adminMaster.Master" />
+    <Content Include="Views\Pharmacist\pharmacistMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,7 +418,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
