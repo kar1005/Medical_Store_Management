@@ -52,7 +52,6 @@ namespace Medical_Store_Management.Forms
                 }
             }
         }
-
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             con = new SqlConnection(conStr);

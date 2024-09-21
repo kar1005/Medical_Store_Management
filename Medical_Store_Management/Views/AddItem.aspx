@@ -108,6 +108,5 @@
     <script src="../../assets/pages/widget/amchart/light.js"></script>
     <script src="../../assets/pages/widget/amchart/pie.min.js"></script>
     <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
-   s
 </body>
 </html>

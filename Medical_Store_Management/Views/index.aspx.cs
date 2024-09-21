@@ -1,7 +1,9 @@
-﻿using System;
+﻿using LinqToDB.Data;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -9,34 +11,51 @@ namespace Medical_Store_Management.Forms
 {
 	public partial class index : System.Web.UI.Page
 	{
+		string conStr = WebConfigurationManager.ConnectionStrings["Database"].ConnectionString;
+		SqlConnection con;
+		SqlCommand cmd;
 		protected void Page_Load(object sender, EventArgs e)
 		{
 
 		}
 
+		protected void btnSubmit_click(object sender, EventArgs e)
+        {
+            string email = emailTB.Text.Trim();
+            string password = passwordTB.Text.Trim();
+            con = new SqlConnection(conStr);
+            cmd = new SqlCommand();
+            cmd.Connection = con;
+            cmd.CommandText = "SELECT Password FROM Staff WHERE Email = @Email";
+            cmd.Parameters.AddWithValue("@Email", email);
+            try
+            {
+                con.Open();
+                object result = cmd.ExecuteScalar();
+                if (result == null)
+                {
+                    Response.Write("<script>alert('No Staff found os this email id');</script>");
+                }
+                else
+                {
 
-		protected void btnLogin_Click(object sender, EventArgs e)
-		{
-			// Replace with your user authentication logic
-			if (ValidateUser(txtUsername.Text, txtPassword.Text))
-			{
-				// Create a session variable to indicate successful login
-				Session["IsLoggedIn"] = true;
-
-				// Redirect to the home page or dashboard
-				Response.Redirect("/Forms/Admin/adminHome.aspx");
-			}
-			else
-			{
-				lblErrorMessage.Text = "Invalid username or password.";
-			}
-		}
-
-		private bool ValidateUser(string username, string password)
-		{
-			// Simulate user validation (replace with database check)
-			return username == "admin" && password == "password123";
-		}
-
+                    var passDB = result.ToString();
+                    if (password != passDB)
+                    {
+                        Response.Write("<script>alert('Passwords Doot Match');</script>");
+                    }
+                    else
+                    {
+                        Session["Email"] = email;
+                        Response.Redirect("AddOrder.aspx");
+                    }
+                }
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
 	}
 }
