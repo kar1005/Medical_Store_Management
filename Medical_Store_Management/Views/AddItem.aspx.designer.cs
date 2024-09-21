@@ -15,15 +15,6 @@ namespace Medical_Store_Management.Forms
     {
 
         /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
         /// tbItem control.
         /// </summary>
         /// <remarks>
@@ -31,6 +22,15 @@ namespace Medical_Store_Management.Forms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbItem;
+
+        /// <summary>
+        /// lblemail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblemail;
 
         /// <summary>
         /// ddlCompany control.
@@ -42,6 +42,15 @@ namespace Medical_Store_Management.Forms
         protected global::System.Web.UI.WebControls.DropDownList ddlCompany;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
         /// tbAmount control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace Medical_Store_Management.Forms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbAmount;
+
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
         /// tbQuantity control.
@@ -60,6 +78,15 @@ namespace Medical_Store_Management.Forms
         protected global::System.Web.UI.WebControls.TextBox tbQuantity;
 
         /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
         /// tbDescription control.
         /// </summary>
         /// <remarks>
@@ -69,12 +96,12 @@ namespace Medical_Store_Management.Forms
         protected global::System.Web.UI.WebControls.TextBox tbDescription;
 
         /// <summary>
-        /// btnSubmit control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Label Label4;
     }
 }
