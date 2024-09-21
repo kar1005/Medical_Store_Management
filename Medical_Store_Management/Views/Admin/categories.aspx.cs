@@ -13,5 +13,21 @@ namespace Medical_Store_Management.Views.Admin
 		{
 
 		}
+
+		protected void saveBtn_Click(object sender, EventArgs e)
+		{
+			String txt = F_name.Text;
+			Response.Write(txt);
+		}
+
+		protected void editBtn_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		protected void deleteBtn_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
