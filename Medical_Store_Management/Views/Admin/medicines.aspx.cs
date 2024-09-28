@@ -12,7 +12,7 @@ namespace Medical_Store_Management.Views.Admin
 {
 	public partial class medicines : System.Web.UI.Page
 	{
-		string conStr = WebConfigurationManager.ConnectionStrings["Database"].ConnectionString;
+        string conStr = WebConfigurationManager.ConnectionStrings["Database"].ConnectionString;// + ";Encrypt=False;";
 		SqlConnection con;
 		SqlCommand cmd;
         protected void Page_Load(object sender, EventArgs e)
