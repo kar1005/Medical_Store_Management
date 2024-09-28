@@ -42,7 +42,7 @@ namespace Medical_Store_Management.Forms
                     var passDB = result.ToString();
                     if (password != passDB)
                     {
-                        Response.Write("<script>alert('Passwords Doot Match');</script>");
+                        Response.Write("<script>alert('Passwords Donot Match');</script>");
                     }
                     else
                     {

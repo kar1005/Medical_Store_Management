@@ -286,7 +286,6 @@
                                     <!-- Page-body start -->
                                     <div class="page-body">
 
-
                                         <form id="mainForm" runat="server">
                                             <asp:ContentPlaceHolder ID="MyBody" runat="server">
                                             </asp:ContentPlaceHolder>

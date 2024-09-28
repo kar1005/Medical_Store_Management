@@ -50,6 +50,9 @@
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
@@ -223,12 +226,14 @@
     <Content Include="Views\AddStaff.aspx" />
     <Content Include="Views\Admin\BillHistory.aspx" />
     <Content Include="Views\Admin\categories.aspx" />
+    <Content Include="Views\Admin\companies.aspx" />
     <Content Include="Views\Admin\createPharmacist.aspx" />
     <Content Include="Views\Admin\GenerateBill.aspx" />
     <Content Include="Views\Admin\HomeAdmin.aspx" />
     <Content Include="Views\Admin\medicines.aspx" />
     <Content Include="Views\Admin\sendMessage.aspx" />
     <Content Include="Views\Admin\ToOrder.aspx" />
+    <Content Include="Views\Admin\staffs.aspx" />
     <Content Include="Views\index.aspx" />
     <Content Include="Views\Pharmacist\GenerateBill.aspx" />
     <Content Include="Views\Pharmacist\medicines.aspx" />
@@ -280,6 +285,13 @@
     <Compile Include="Views\Admin\categories.aspx.designer.cs">
       <DependentUpon>categories.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Admin\companies.aspx.cs">
+      <DependentUpon>companies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\companies.aspx.designer.cs">
+      <DependentUpon>companies.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Admin\createPharmacist.aspx.cs">
       <DependentUpon>createPharmacist.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -321,6 +333,13 @@
     </Compile>
     <Compile Include="Views\Admin\ToOrder.aspx.designer.cs">
       <DependentUpon>ToOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\staffs.aspx.cs">
+      <DependentUpon>staffs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\staffs.aspx.designer.cs">
+      <DependentUpon>staffs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

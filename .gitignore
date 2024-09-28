@@ -10,7 +10,6 @@
 *.userosscache
 *.sln.docstates
 
-Medical_Store_Management/Web.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
