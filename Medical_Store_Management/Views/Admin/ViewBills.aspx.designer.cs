@@ -11,16 +11,25 @@ namespace Medical_Store_Management.Views.Admin
 {
 
 
-	public partial class ToOrder
+	public partial class ViewBills
 	{
 
 		/// <summary>
-		/// gvMedicinesToOrder control.
+		/// lblError control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.GridView gvMedicinesToOrder;
+		protected global::System.Web.UI.WebControls.Label lblError;
+
+		/// <summary>
+		/// rptBills control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Repeater rptBills;
 	}
 }

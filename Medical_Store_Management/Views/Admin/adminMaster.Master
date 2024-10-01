@@ -110,7 +110,7 @@
                         <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
                             <i class="ti-menu"></i>
                         </a>
-                        <div class="mobile-search waves-effect waves-light">
+    <!--                   <div class="mobile-search waves-effect waves-light">
                             <div class="header-search">
                                 <div class="main-search morphsearch-search">
                                     <div class="input-group">
@@ -120,13 +120,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <a href="HomeAdmin.aspx">
                             <img class="img-fluid" src="../../assets/images/logo.png" alt="Theme-Logo" />
                         </a>
-                        <a class="mobile-options waves-effect waves-light">
-                            <i class="ti-more"></i>
-                        </a>
+                     
                     </div>
 
                     <div class="navbar-container container-fluid">
@@ -168,7 +166,7 @@
                                       </a>
                                   </li> -->
                                     <li class="waves-effect waves-light">
-                                        <a href="email-inbox.html">
+                                        <a href="sendMessage.aspx">
                                             <i class="ti-email"></i>Send Messages
                                         </a>
                                     </li>
@@ -215,7 +213,7 @@
 
                             <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Admin</div>
                             <ul class="pcoded-item pcoded-left-item">
-                                <li class="active">
+                               <li>
                                     <a href="HomeAdmin.aspx" class="waves-effect waves-dark">
                                         <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Pharmacists</span>

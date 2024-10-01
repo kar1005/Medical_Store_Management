@@ -26,30 +26,33 @@ namespace Medical_Store_Management.Forms
             con = new SqlConnection(conStr);
             cmd = new SqlCommand();
             cmd.Connection = con;
-            cmd.CommandText = "SELECT Password FROM Staff WHERE Email = @Email";
+            cmd.CommandText = "SELECT password FROM Staff WHERE Email = @Email";
             cmd.Parameters.AddWithValue("@Email", email);
+
             try
             {
                 con.Open();
                 object result = cmd.ExecuteScalar();
-                if (result == null)
+				System.Diagnostics.Debug.WriteLine($"Object Result: {result} and entered password is: {password}");
+
+				if (result == null)
                 {
                     Response.Write("<script>alert('No Staff found os this email id');</script>");
                 }
                 else
                 {
 
-                    var passDB = result.ToString();
-                    if (password != passDB)
-                    {
-                        Response.Write("<script>alert('Passwords Donot Match');</script>");
-                    }
-                    else
-                    {
-                        Session["Email"] = email;
-                        Response.Redirect("AddOrder.aspx");
-                    }
-                }
+					var passDB = result.ToString().Trim();
+					if (password.Trim() == passDB)
+					{
+						Session["Email"] = email;
+						Response.Redirect("AddOrder.aspx");
+					}
+					else
+					{
+						Response.Write("<script>alert('Passwords Do not Match');</script>");
+					}
+				}
                 con.Close();
             }
             catch (Exception ex)
