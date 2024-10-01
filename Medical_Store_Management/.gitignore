@@ -31,4 +31,4 @@ packages/
 # Rider project files
 .idea/
 
-Medical_Store_Management/Web.config
+*.config
